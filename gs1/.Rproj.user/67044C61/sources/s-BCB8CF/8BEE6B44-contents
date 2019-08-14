@@ -1,0 +1,67 @@
+# gs1
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of gs1 is to ...
+
+## Installation
+
+You can install the released version of gs1 from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("gs1")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem: Cluttered Screen Outputs 
+
+``` r
+library(gs1)
+## basic example code
+
+#    
+#    Example of Print Divider package when used in Jupyter Lab.  The function 
+#    call gs1() outputs a three-row Print Divider.  The third row will display  
+#    the arguement used in the call and can be useful when used as a reference.
+#
+#
+#   library(gs1)                         # Use library in Jupyter
+#
+#    
+#
+#   gs1(From ESS$Names)                 # Print-Divider call fnct with a note
+#                                       # Output: Print Divider with a note
+#
+#   []                                                                                       
+#   []  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX            
+#   []    From ESS$Names
+
+
+
+#   Example of Print Divider used in Jupyter to seperate some code outputs
+#
+#
+# library(gs1)                          #  Use library in Jupyter 
+#
+# dim(df_ESS)                           #  Some code that outputs to screen
+#
+# gs1(7)                                #  Print-Divider with a reference
+#
+# class(df_ESS)                     #  Some more code that prints to the screen
+#
+#
+#
+# 1517                              #  The output from, dim(df_ESS)
+# 765 
+#                                   #  Print-Divider with the reference                             
+# [1]  
+# [1] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+# [1]   7
+#
+# 'data.frame'                      #  The output from, class(df_ESS)
+#
+#
+```
+

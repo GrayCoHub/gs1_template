@@ -1,0 +1,16 @@
+#' Title
+#'
+#' @param x
+#'
+#' @return The output for code{\link{print}
+#' @export gs1
+#'
+#' @examples
+#' gs1(1)
+#' gs1(a string)
+gs1 <- function(x) {
+  print(" ", quote = FALSE)
+  print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", quote = FALSE)
+  print(paste(" ",x), quote = FALSE)
+}
+gs1("()")
